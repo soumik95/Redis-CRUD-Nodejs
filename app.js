@@ -78,5 +78,6 @@ app.delete('/user/delete/:id', function(req, res, next){
 });
 
 app.listen(port, function(){
-  console.log('Server started on port '+port);
+  console.log('Server Status: Connected');
+  console.log('Port No. : '+port);
 });
